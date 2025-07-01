@@ -1,0 +1,12 @@
+openapi: 3.0.0
+info:
+  title: 'Planify: Project management api.'
+  description: A project management webapp that simplifies planning and organizing tasks for teams.
+  version: 1.0.0
+  contact:
+    name: Neema deshwal
+    email: neemadeshwal.py@gmail.com
+servers:
+  - url: http://localhost:3000
+    description: Local server
+paths:

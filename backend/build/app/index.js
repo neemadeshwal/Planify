@@ -21,7 +21,7 @@ function initServer() {
             return { app };
         }
         catch (error) {
-            console.log("Server initialization error: ", error);
+            console.log('Server initialization error: ', error);
             throw error;
         }
     });
